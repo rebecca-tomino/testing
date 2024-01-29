@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Add for responsive web, must be on every html page. -->
+   <title>Homepage - Responsive Demo</title>
+
+   <link rel="stylesheet" href="css/normalize.css"> <!-- This is getting rid of default browser css -->
+
+   <link rel="stylesheet" href="css/skeleton.css"> <!-- Framework css -->
+
+   <link rel="stylesheet" href="css/stylesheet.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+<!-- Navigation bar -->
+<header class="header">
+    <!-- Logo -->
+    <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Dog bone logo.">
+    </a>
+
+    <!-- Hamburger icon -->
+    <input class="side-menu" type="checkbox" id="side-menu"/>
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+    <!-- Menu -->
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Blog</a> </li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="hero">
+    <div class="heroText">
+        <h1 class="testDemo" id="testDemo">Dog's World</h1>
+        <p class="shadow">Let's learn about dogs!</p>
+    </div>
+</div><!-- Closing hero tag-->
+
+
+<!-- .container is main centered wrapper -->
+<div class="container homeContainer">
+
+   
+  
+    <!-- just use a number and class 'column' or 'columns' -->
+    <div class="row">
+      <div class="four columns">
+        <img class="homeImg" src="images/border_collie.jpg" alt="This is a picture of a border collie dog.">  
+        <h3 class="centerText">Border Collie</h3></div>
+      <div class="four columns">
+        <img class="homeImg" src="images/golden_retriever.jpg" alt="This is a picture of a golden retriever.">  
+        <h3 class="centerText">Golden Retriever</h3></div>
+      <div class="four columns">
+        <img class="homeImg" src="images/pug.jpg" alt="This is a picture of a pug">  
+        <h3 class="centerText">Pug</h3></div> 
+    </div>
+  
+  
+
+  
+  </div> <!-- Closing div tag for container -->
+  
+  <div id="dogContent">
+    <div id="dogInformation">
+      <p>Dogs are domestic mammals of the Canidae family and the Carnivora order. Their scientific name is Canis lupus familiaris. Dogs are a subspecies of the gray wolf, and they are also related to foxes and jackals. </p>
+    </div>
+
+  </div> <!-- dogContent closing div-->
+
+
+
+</body>
+</html>
